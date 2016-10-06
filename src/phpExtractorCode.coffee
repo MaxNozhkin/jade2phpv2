@@ -1,1 +1,1 @@
-module.exports = '<?php if(is_array($GLOBALS['verstat-data']))extract($GLOBALS['verstat-data'])?>'
+module.exports = '<?php if(is_array($GLOBALS["verstat-data"]))extract($GLOBALS["verstat-data"])?>'
