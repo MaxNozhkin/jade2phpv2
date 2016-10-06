@@ -1,29 +1,29 @@
 {
-  "name": "jade2php",
+  "name": "jade2phpv2",
   "description": "Unlock Jade for PHP! Convert Jade templates into raw PHP templates. CLI tool and JavaScript API. Test covered.",
   "version": "1.2.3",
   "license": "MIT",
-  "author": "Ivan Kravchenko",
+  "author": "Maksym Nozhkin",
   "keywords": [
     "jade",
     "php",
-    "jade to php",
-    "jade2php",
+    "jade to php v2",
+    "jade2phpv2",
     "transpiler",
     "converter"
   ],
-  "homepage": "https://github.com/SE7ENSKY/jade2php",
-  "bugs": "https://github.com/SE7ENSKY/jade2php/issues",
+  "homepage": "https://github.com/MaxNozhkin/jade2phpv2",
+  "bugs": "https://github.com/MaxNozhkin/jade2phpv2/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/SE7ENSKY/jade2php.git"
+    "url": "git://github.com/MaxNozhkin/jade2phpv2.git"
   },
   "directories": {
     "lib": "./lib"
   },
-  "main": "./lib/jade2php",
+  "main": "./lib/jade2phpv2",
   "bin": {
-    "jade2php": "./bin/jade2php"
+    "jade2phpv2": "./bin/jade2phpv2"
   },
   "dependencies": {
     "character-parser": "^1.2.0",
