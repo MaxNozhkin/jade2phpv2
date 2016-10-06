@@ -21,7 +21,7 @@ runPhp = (phpCode) ->
 test = (testName, jadeSrc) ->
 	it testName, ->
 		referenceHtml = jade.render jadeSrc
-		phpTemplate = jade2php jadeSrc
+		phpTemplate = jade2phpv2 jadeSrc
 		testHtml = runPhp phpTemplate
 		testHtml.should.eql referenceHtml
 
